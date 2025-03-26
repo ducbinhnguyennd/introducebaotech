@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Provider from "../pages/Provider";
 import Overview from "../pages/Overview";
 import Warehousing from "../pages/Warehousing";
+import Fund from "../pages/Fund";
 
 const AppRouter = () => {
   return (
@@ -12,6 +13,7 @@ const AppRouter = () => {
       <Route path="/tongquan" element={<Overview />} />
       <Route path="/nhacungcap" element={<Provider />} />
       <Route path="/nhapkho" element={<Warehousing />} />
+      <Route path="/quytien" element={<Fund />} />
     </Routes>
   );
 };

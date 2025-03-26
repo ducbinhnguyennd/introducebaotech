@@ -3,11 +3,11 @@ import React from "react";
 const Overview = () => {
   return (
     <>
-      <div style={{ width: "70%" }}>
-        <div style={{ padding: "32px" }}>
+      <div className="container">
+        <div className="title">
           <h2>Tổng quan</h2>
         </div>
-        <div style={{ padding: "0 32px" }}>
+        <div className="content">
           <div>
             <strong>1. Tổng quan doanh thu </strong>
             <p>
